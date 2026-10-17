@@ -2,7 +2,7 @@
 
 ## Rules
 
-- Keep global conventions here, development standards in `docs/standards/`, and consult them as needed.
+- Keep global conventions here; development standards live in `docs/standards/` — list that directory to discover them, and read the applicable ones before acting.
 - Keep directory-specific rules in the nearest `AGENTS.md`.
 - Before modifying files, check and load applicable `AGENTS.md` files along the directory hierarchy. For example, read `docs/designs/AGENTS.md` before modifying files under `docs/designs/`.
 
