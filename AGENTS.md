@@ -2,9 +2,13 @@
 
 ## Rules
 
-- Keep global conventions here; development standards live in `docs/standards/` — list that directory to discover them, and read the applicable ones before acting.
-- Keep directory-specific rules in the nearest `AGENTS.md`.
-- Before modifying files, check and load applicable `AGENTS.md` files along the directory hierarchy. For example, read `docs/designs/AGENTS.md` before modifying files under `docs/designs/`.
+- Before starting a task, check the applicable development standards in `docs/standards/`.
+- Before modifying files, check applicable `AGENTS.md` files along the directory hierarchy. Keep directory-specific
+  rules in the nearest `AGENTS.md`.
+
+| Standard       | When to read                |
+|----------------|-----------------------------|
+| `branching.md` | Creating or naming branches |
 
 ## Tooling
 
@@ -17,10 +21,10 @@
 - Keep it simple and structured. Avoid long blocks of text.
 - Prefer: diagrams > tables > short lists.
 
-| Format | Use for |
-| --- | --- |
-| Mermaid | Flows, sequences, states, architecture, responsibilities, transactions |
-| Tables | Fields, rules, mappings, comparisons |
-| Short lists | Simple facts, notes |
+| Format      | Use for                                                                |
+|-------------|------------------------------------------------------------------------|
+| Mermaid     | Flows, sequences, states, architecture, responsibilities, transactions |
+| Tables      | Fields, rules, mappings, comparisons                                   |
+| Short lists | Simple facts, notes                                                    |
 
 - Do not repeat information already conveyed clearly by diagrams or tables.
