@@ -8,7 +8,8 @@
 
 | Standard       | When to read                |
 |----------------|-----------------------------|
-| `branching.md` | Creating or naming branches |
+| `branching.md`         | Creating or naming branches        |
+| `project_structure.md` | Creating, moving, or removing files |
 
 ## Tooling
 
