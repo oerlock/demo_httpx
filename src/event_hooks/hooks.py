@@ -7,12 +7,12 @@ import httpx
 logger = logging.getLogger(__name__)
 
 
-async def log_request(request):
+async def log_request(request: httpx.Request) -> None:
     """Log the HTTP method and URL before the request is sent."""
     logger.info("Request: %s %s", request.method, request.url)
 
 
-async def log_response(response):
+async def log_response(response: httpx.Response) -> None:
     """Log the status code and URL after the response is received."""
     logger.info("Response: %s %s", response.status_code, response.url)
 
